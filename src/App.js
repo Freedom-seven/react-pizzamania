@@ -1,8 +1,9 @@
-import Navbar from './Component/Navbar'
-import Carousel from './Component/Carousel'
-import About from './Component/About'
-import PizzTypes from './Component/PizzaTypes'
+import Navbar from './Component/Navbar/Navbar'
+import Carousel from './Component/Carousel/Carousel'
+import About from './Component/About/About'
+import PizzaTypes from './Component/PizzaTypes/PizzaTypes'
 import './App.css';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar/>
       <Carousel/>
       <About/>
-      <PizzTypes/>
+      <PizzaTypes title={"Our Pizza Types"}/>
+      <Footer/>
     </>
   );
 }
