@@ -11,7 +11,7 @@ function App() {
       <Navbar/>
       <Carousel/>
       <About/>
-      <PizzaTypes title={"Our Pizza Types"}/>
+      <PizzaTypes title={"Our PizzaTypes"}/>
       <Footer/>
     </>
   );
