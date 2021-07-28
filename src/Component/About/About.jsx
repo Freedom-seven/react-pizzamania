@@ -10,7 +10,7 @@ class About extends Component {
                 <h2 className="text-center">About Pizza</h2>
         
                 <div className="col-md-6">
-                    <img src={image4} className="img-responsive"/>
+                    <img src={image4} alt="pizza" className="img-responsive"/>
                 </div>
                 <div className="col-md-6">
                     <h3>Pizza Is Awosome</h3>
